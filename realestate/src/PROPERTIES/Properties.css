@@ -1,0 +1,30 @@
+.custom-input{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px;
+}
+.custom-button{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+#title-color{
+    color: rgb(54, 0, 204)
+}
+
+#text-color{
+    color: rgb(255, 153, 0);
+    border: black;
+}
+
+#custom-card:hover{
+    box-shadow: 0px 0px 10px 0px;
+    transform: scale(1.15);
+    z-index: 1;
+}
+#custom-card{
+    box-shadow: 0px 0px 10px 0px;
+    transition: 0.5s ease;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Bad+Script&family=Balthazar&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Protest+Riot&display=swap');

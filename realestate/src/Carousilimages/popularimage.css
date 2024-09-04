@@ -1,0 +1,171 @@
+.card-carousel-container {
+    text-align: center;
+  }
+  
+  .card-carousel {
+    overflow: hidden;
+    box-shadow: 3px 3px 25px 1px lightsteelblue;
+  }
+ 
+ 
+  .carousel-card {
+    flex: 0 0 23%;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-card:hover{
+    transform: scale(0.9);
+  }
+
+  #button-color1{
+    background-color:rgb(0, 0, 255);
+    border-color: black;
+    border-width: 1.5px;
+    border-radius: 15% 15% 15% 15%;
+  }
+  #button-color2{
+    background-color:rgb(0, 0, 255);
+    border-color: black;
+    border-width: 1.5px;
+    border-radius: 15% 15% 15% 15%;
+  }
+  #button-color1:hover{
+    background-color: #ffb300;
+  }
+  #button-color2:hover{
+    background-color: #ffb300;
+  }
+  #price{
+    color: grey;
+    font-size: 20px;
+    margin-right: 60px;
+    color:#ffb300;
+  }
+#rupees{
+  margin-top: -63px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+#title{
+  color: rgb(38, 11, 118);
+  font-size: 27px;
+}
+
+#heart-button {
+  color: white;
+  background-color:transparent;
+  border-color: transparent;
+}
+
+#heart-button:hover{
+  color: red;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+h3{
+  color: #ffbb00;  
+}
+h1{
+color:rgb(50, 16, 184);
+}
+
+#modal-color{
+ color: #ff0000;
+ text-shadow:  2px 2px 4px #ffffff, 1px 1px 3.5px #000000;
+}
+
+@media (min-width:601px){
+  #favo-card{
+    margin-left: 110px;
+  }
+}
+
+@media (min-width:700px){
+  #favo-card{
+    margin-left: 170px;
+  }
+}
+
+@media (min-width:800px){
+  #favo-card{
+    margin-left: 210px;
+  }
+}
+
+@media (min-width:900px){
+  #favo-card{
+    margin-left: 490px;
+  }
+}
+
+@media (max-width:600px){
+  #favo-card{
+    margin-left: 25px;
+  }
+}
+
+
+#favo-card{
+  margin-top: 50px;
+}
+
+#heading-favo{
+  margin-left: 200px;
+  font-size: 60px;
+  color: #ff0000;
+  text-shadow:  2px 2px 1px #000000, 3px 3px 6px #000000;
+}
+
+@media (max-width:600px){
+  #heading-favo{
+    margin-left: 19px;
+    font-size: 21px;
+    color: #ff0000;
+    text-shadow:  2px 2px 1px #000000, 3px 3px 6px #000000;
+  }
+}
+
+@media (min-width:601px){
+  #heading-favo{
+    margin-left: 15px;
+    font-size: 39px;
+    color: #ff0000;
+    text-shadow:  2px 2px 1px #000000, 3px 3px 6px #000000;
+  }
+}
+
+@media (min-width:800px){
+  #heading-favo{
+    margin-left: 29px;
+    font-size: 50px;
+    color: #ff0000;
+    text-shadow:  2px 2px 1px #000000, 3px 3px 6px #000000;
+  }
+}
+
+@media (min-width:900px){
+  #heading-favo{
+    margin-left: 300px;
+    font-size: 50px;
+    color: #ff0000;
+    text-shadow:  2px 2px 1px #000000, 3px 3px 6px #000000;
+  }
+}
+
+#favo-card{
+  box-shadow: 0px 0px 15px 3px #000000;
+  transition: 0.5s ease;
+}
+#favo-card:hover{
+  transform:scale(0.8);
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto+Slab:wght@100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Protest+Riot&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Bad+Script&family=Balthazar&family=Protest+Riot&display=swap')
+ 

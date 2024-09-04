@@ -1,0 +1,204 @@
+#footercard{
+    margin-top: 150px;
+}
+@media (min-width: 576px) {
+    #footercard{
+        margin-top: 190px;
+    }
+}
+@media (min-width: 638px) {
+    #footercard{
+        margin-top: 230px;
+    }
+}
+@media (min-width: 768px) {
+    #footercard{
+        margin-top: -5px;
+        margin-top: 140px;
+    }
+}
+@media (min-width: 992px) {
+    #footercard{
+        margin-top: -5px;
+        margin-top: 100px;
+    }
+}
+
+#cardcolor{
+    background:linear-gradient(to right top, #123000, #091e01, #173a02, #35861c, #80ff00);
+    color: white;
+}
+#h1c{
+    color: #000ba0;
+}
+#h1t{
+    color: white;
+}
+#spinner{
+    margin-left: 120px;
+}
+
+#newH2{
+    color: #ff0000;
+    margin-left: 130px;
+}
+
+#newH2:hover{
+ color: #51ff00;
+ cursor:pointer;
+}
+
+#login-color{
+    color: #5a5e57;
+}
+
+#siginup-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#sigin-button{
+    background-color: #e50000;
+    border: 2px solid rgb(198, 192, 192);
+}
+
+
+#sigin-button:hover{
+    background-color: #1cde12;
+    color: #ffffff;
+    border: 2px solid rgb(198, 192, 192);
+    cursor: progress;
+}
+
+#login_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#login-button{
+    background-color: #e50000;
+    border: 2px solid rgb(198, 192, 192);
+
+}
+#login-button:hover{
+    background-color: #1cde12;
+    color: #ffffff;
+    border: 2px solid rgb(198, 192, 192);
+    cursor: progress;
+}
+
+#video{
+    position:fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+
+#video-forgot{
+    position:fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+#video-reset{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (min-width: 576px){
+    #form{
+        display: flex;
+        justify-content: center;
+    }
+    }
+  
+
+    
+
+ #align{
+        margin-top: 14%;
+    }
+
+    #align-forgot{
+        margin-top: 14%;    
+    }
+
+
+/* 
+    #button-forgot{
+        text-align: center;
+    } */
+
+#button-border{
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #e20000;   
+}
+
+#button-border1{
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #e20000;   
+}
+
+@media (max-width:490px) {
+    #button-border{
+        border:2px solid black;
+    }
+}
+
+#button-border:hover{
+    background-color: #35bc00;
+}
+
+#align-reset
+{
+    margin-top: 170px;
+}
+
+@media (max-width:498px)
+{
+    #align-reset
+{
+    margin-top: 10px;
+}
+}
+@media (min-width:499px)
+{
+    #align-reset
+{
+    margin-top: 50px;
+}
+}
+
+@media (min-width:700px)
+{
+    #align-reset
+{
+    margin-top: 100px;
+}
+}
+
+@media (min-width:800px)
+{
+    #align-reset
+{
+    margin-top: 140px;
+}
+}
+
+@media (min-width:900px)
+{
+    #align-reset
+{
+    margin-top: 200px;
+}
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Bad+Script&family=Balthazar&family=Protest+Riot&display=swap');

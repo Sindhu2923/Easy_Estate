@@ -1,0 +1,74 @@
+@media (max-width:576px) {
+    .text-xs-center{
+        text-align: center;
+    }
+}
+@media (min-width:992px) {
+    #mapxs{
+        margin-left: 80px;
+    }
+}
+@media (max-width:800px){
+    #mapxs{
+        margin-left: 70px;
+    }
+}
+@media (min-width:992px) {
+    .total-center{
+        margin-top: 130px;
+        margin-left: 90px;
+    }
+}
+@media (min-width:992px){
+    .map-center{
+        margin-top: 130px;
+    }
+}
+
+#button-color{
+    background-color: rgb(246, 188, 0);
+    color: black;
+    border-color: black;
+    border-width: 1.5px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+#button-color:hover{
+    background-color: rgb(0, 7, 218);
+    color: white;
+    cursor: progress;
+}
+
+#circle-button{
+    color: rgb(255, 250, 250);
+    border-color: black;
+    border-radius: 50%;
+    border-width: 2px;
+}
+#circle-button:hover{
+    background-color:rgb(255, 183, 0);
+}
+hr{
+    height: 3px;
+    background:black;
+    width: 20%;
+}
+#movebutton{
+    margin-left: 140px;
+}
+@media (min-width:700px){
+    #movebutton{
+        margin-left: 140px;
+    }
+}
+@media (max-width:576px){
+    #movebutton{
+        margin-left: 0px;
+    }
+}
+@media (min-width:577px){
+    #movebutton{
+        margin-left: 140px;
+    }
+}

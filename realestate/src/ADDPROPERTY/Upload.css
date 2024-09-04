@@ -1,0 +1,22 @@
+@media (min-width:576px) {
+    #upload-grid{
+        margin-top: 100px;
+     }
+}
+#h1-grid{
+    color: rgb(0, 0, 224);
+}
+
+@media (min-width:768px) {
+    #upload-image{
+        max-width: 500px;
+        max-height: 500px;
+     }
+}
+
+@media (max-width:768px) {
+    #upload-image{
+        max-width: 300px;
+        max-height: 300px;
+     }
+}
